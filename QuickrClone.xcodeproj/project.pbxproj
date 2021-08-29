@@ -19,14 +19,11 @@
 		6F115F0026D551DA0033CB1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */; };
 		6F115F2426D572AE0033CB1B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2326D572AE0033CB1B /* LoginView.swift */; };
 		6F115F2926D579610033CB1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2826D579610033CB1B /* SignUpView.swift */; };
-		6F115F2E26D57A250033CB1B /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2D26D57A250033CB1B /* Listing.swift */; };
 		6F115F3326D57A330033CB1B /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F3226D57A330033CB1B /* AddItem.swift */; };
 		6F115F3926D58CDD0033CB1B /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F3826D58CDD0033CB1B /* ListModel.swift */; };
 		6F115F4326D593340033CB1B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F4226D593340033CB1B /* ListViewModel.swift */; };
 		6F5FD8F026D6C47000A97929 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */; };
 		6FC7B8D026D7E44B0048FB85 /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */; };
-		6FC7B8E126D9D3D30048FB85 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */; };
-		6FF0C5B026DB542D00ED24E1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */; };
 		6FF0C5BD26DB566900ED24E1 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0C5BC26DB566900ED24E1 /* ListingView.swift */; };
 		C77FC845AB58939D0C58D7A2 /* Pods_QuickrCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A293EACAC81039C0B523D5 /* Pods_QuickrCloneTests.framework */; };
 		D1C006FA2E51F249900A5849 /* Pods_QuickrClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6881A8DF0116DB5AB3CA730 /* Pods_QuickrClone.framework */; };
@@ -69,14 +66,11 @@
 		6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F115F2326D572AE0033CB1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6F115F2826D579610033CB1B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		6F115F2D26D57A250033CB1B /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		6F115F3226D57A330033CB1B /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
 		6F115F3826D58CDD0033CB1B /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = "../New Group/ListModel.swift"; sourceTree = "<group>"; };
 		6F115F4226D593340033CB1B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
-		6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6FF0C5BC26DB566900ED24E1 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
 		7126A4149FF94942717717FB /* Pods-QuickrClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone.debug.xcconfig"; path = "Target Support Files/Pods-QuickrClone/Pods-QuickrClone.debug.xcconfig"; sourceTree = "<group>"; };
 		7B3DB89D04908A7BC36A436A /* Pods-QuickrClone-QuickrCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone-QuickrCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,10 +151,7 @@
 				6F115F3D26D58CE20033CB1B /* Model */,
 				6F115F4126D593120033CB1B /* ViewModel */,
 				6F115F3726D58CA20033CB1B /* View */,
-				6F115F2D26D57A250033CB1B /* Listing.swift */,
 				6FF0C5BC26DB566900ED24E1 /* ListingView.swift */,
-				6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */,
-				6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */,
 				6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */,
 				6F115ED526D551AA0033CB1B /* Assets.xcassets */,
 				6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */,
@@ -480,12 +471,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F115F2926D579610033CB1B /* SignUpView.swift in Sources */,
-				6FF0C5B026DB542D00ED24E1 /* DetailView.swift in Sources */,
 				6F115F2426D572AE0033CB1B /* LoginView.swift in Sources */,
 				6FC7B8D026D7E44B0048FB85 /* ListsViewModel.swift in Sources */,
 				6F115F3326D57A330033CB1B /* AddItem.swift in Sources */,
-				6FC7B8E126D9D3D30048FB85 /* CloseButton.swift in Sources */,
-				6F115F2E26D57A250033CB1B /* Listing.swift in Sources */,
 				6FF0C5BD26DB566900ED24E1 /* ListingView.swift in Sources */,
 				6F5FD8F026D6C47000A97929 /* ImagePickerView.swift in Sources */,
 				6F115F3926D58CDD0033CB1B /* ListModel.swift in Sources */,
