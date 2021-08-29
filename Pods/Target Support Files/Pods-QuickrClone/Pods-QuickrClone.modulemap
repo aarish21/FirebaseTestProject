@@ -1,0 +1,6 @@
+framework module Pods_QuickrClone {
+  umbrella header "Pods-QuickrClone-umbrella.h"
+
+  export *
+  module * { export * }
+}

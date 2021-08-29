@@ -6,11 +6,54 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseFirestore
+import URLImage
 
 struct ListingView: View {
+    @ObservedObject private var viewModel = ListViewModel()
+    @StateObject var Model = ListsViewModel()
+    @Environment(\.managedObjectContext) var moc
+    @State private var showAddScreen = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(viewModel.list){list in
+                if Auth.auth().currentUser?.email == list.sender{
+                    HStack{
+                        Image(uiImage: list.imgUrl.load())
+                            .resizable()
+                            .frame(width: 90, height: 100)
+                            .aspectRatio(contentMode: .fill)
+                            .padding()
+                        VStack(alignment: .leading){
+                            Text(list.name)
+                                .font(.title)
+                                .fontWeight(.bold)
+                            Text(list.category)
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                            Text(list.description)
+                                .font(.caption)
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        .navigationBarTitle("Browse")
+        .navigationBarItems(trailing:
+                                Button(action: {showAddScreen.toggle()}, label: {
+                                    Image(systemName: "plus")
+                                }))
+        .sheet(isPresented: $showAddScreen, content: {
+                                    AddItem()
+                                })
+        .onAppear(){
+            self.viewModel.fetchData()
+             }
     }
+    
 }
 
 struct ListingView_Previews: PreviewProvider {

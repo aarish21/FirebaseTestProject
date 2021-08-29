@@ -3,16 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079E4817631D0DADCC816E1F /* Pods_QuickrClone_QuickrCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A2C18869D4E85C1273A0F5 /* Pods_QuickrClone_QuickrCloneUITests.framework */; };
+		6F01EB9026DA4CC5006E3F4B /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F01EB8F26DA4CC5006E3F4B /* URLImageStore */; };
+		6F01EB9226DA4CC5006E3F4B /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F01EB9126DA4CC5006E3F4B /* URLImage */; };
 		6F115ED226D551A70033CB1B /* QuickrCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115ED126D551A70033CB1B /* QuickrCloneApp.swift */; };
 		6F115ED426D551A70033CB1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115ED326D551A70033CB1B /* ContentView.swift */; };
 		6F115ED626D551AA0033CB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F115ED526D551AA0033CB1B /* Assets.xcassets */; };
 		6F115ED926D551AA0033CB1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F115ED826D551AA0033CB1B /* Preview Assets.xcassets */; };
 		6F115EE426D551AB0033CB1B /* QuickrCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115EE326D551AB0033CB1B /* QuickrCloneTests.swift */; };
 		6F115EEF26D551AB0033CB1B /* QuickrCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115EEE26D551AB0033CB1B /* QuickrCloneUITests.swift */; };
+		6F115F0026D551DA0033CB1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */; };
+		6F115F2426D572AE0033CB1B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2326D572AE0033CB1B /* LoginView.swift */; };
+		6F115F2926D579610033CB1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2826D579610033CB1B /* SignUpView.swift */; };
+		6F115F2E26D57A250033CB1B /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F2D26D57A250033CB1B /* Listing.swift */; };
+		6F115F3326D57A330033CB1B /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F3226D57A330033CB1B /* AddItem.swift */; };
+		6F115F3926D58CDD0033CB1B /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F3826D58CDD0033CB1B /* ListModel.swift */; };
+		6F115F4326D593340033CB1B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115F4226D593340033CB1B /* ListViewModel.swift */; };
+		6F5FD8F026D6C47000A97929 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */; };
+		6FC7B8D026D7E44B0048FB85 /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */; };
+		6FC7B8E126D9D3D30048FB85 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */; };
+		6FF0C5B026DB542D00ED24E1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */; };
+		6FF0C5BD26DB566900ED24E1 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0C5BC26DB566900ED24E1 /* ListingView.swift */; };
+		C77FC845AB58939D0C58D7A2 /* Pods_QuickrCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A293EACAC81039C0B523D5 /* Pods_QuickrCloneTests.framework */; };
+		D1C006FA2E51F249900A5849 /* Pods_QuickrClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6881A8DF0116DB5AB3CA730 /* Pods_QuickrClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A293EACAC81039C0B523D5 /* Pods_QuickrCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickrCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8F64B9A5468EB67473D48A /* Pods-QuickrClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone.release.xcconfig"; path = "Target Support Files/Pods-QuickrClone/Pods-QuickrClone.release.xcconfig"; sourceTree = "<group>"; };
+		54CCE9E8E5F5B6825572CB52 /* Pods-QuickrClone-QuickrCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone-QuickrCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		634A1BC1281B919035BA26D8 /* Pods-QuickrCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrCloneTests.release.xcconfig"; path = "Target Support Files/Pods-QuickrCloneTests/Pods-QuickrCloneTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F115ECE26D551A70033CB1B /* QuickrClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickrClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F115ED126D551A70033CB1B /* QuickrCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickrCloneApp.swift; sourceTree = "<group>"; };
 		6F115ED326D551A70033CB1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,23 @@
 		6F115EEA26D551AB0033CB1B /* QuickrCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickrCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F115EEE26D551AB0033CB1B /* QuickrCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickrCloneUITests.swift; sourceTree = "<group>"; };
 		6F115EF026D551AB0033CB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F115F2326D572AE0033CB1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6F115F2826D579610033CB1B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6F115F2D26D57A250033CB1B /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		6F115F3226D57A330033CB1B /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		6F115F3826D58CDD0033CB1B /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = "../New Group/ListModel.swift"; sourceTree = "<group>"; };
+		6F115F4226D593340033CB1B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
+		6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6FF0C5BC26DB566900ED24E1 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		7126A4149FF94942717717FB /* Pods-QuickrClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone.debug.xcconfig"; path = "Target Support Files/Pods-QuickrClone/Pods-QuickrClone.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3DB89D04908A7BC36A436A /* Pods-QuickrClone-QuickrCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrClone-QuickrCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6881A8DF0116DB5AB3CA730 /* Pods_QuickrClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickrClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1232334E88ECF91D0CABD71 /* Pods-QuickrCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickrCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickrCloneTests/Pods-QuickrCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A2C18869D4E85C1273A0F5 /* Pods_QuickrClone_QuickrCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickrClone_QuickrCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F01EB9026DA4CC5006E3F4B /* URLImageStore in Frameworks */,
+				6F01EB9226DA4CC5006E3F4B /* URLImage in Frameworks */,
+				D1C006FA2E51F249900A5849 /* Pods_QuickrClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77FC845AB58939D0C58D7A2 /* Pods_QuickrCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079E4817631D0DADCC816E1F /* Pods_QuickrClone_QuickrCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6526FBD39BF74F14B3CFC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7126A4149FF94942717717FB /* Pods-QuickrClone.debug.xcconfig */,
+				4A8F64B9A5468EB67473D48A /* Pods-QuickrClone.release.xcconfig */,
+				54CCE9E8E5F5B6825572CB52 /* Pods-QuickrClone-QuickrCloneUITests.debug.xcconfig */,
+				7B3DB89D04908A7BC36A436A /* Pods-QuickrClone-QuickrCloneUITests.release.xcconfig */,
+				C1232334E88ECF91D0CABD71 /* Pods-QuickrCloneTests.debug.xcconfig */,
+				634A1BC1281B919035BA26D8 /* Pods-QuickrCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6F115EC526D551A70033CB1B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +135,8 @@
 				6F115EE226D551AB0033CB1B /* QuickrCloneTests */,
 				6F115EED26D551AB0033CB1B /* QuickrCloneUITests */,
 				6F115ECF26D551A70033CB1B /* Products */,
+				1C6526FBD39BF74F14B3CFC1 /* Pods */,
+				913E8E7C40771C30A443C95D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +154,16 @@
 			isa = PBXGroup;
 			children = (
 				6F115ED126D551A70033CB1B /* QuickrCloneApp.swift */,
-				6F115ED326D551A70033CB1B /* ContentView.swift */,
+				6F115F3D26D58CE20033CB1B /* Model */,
+				6F115F4126D593120033CB1B /* ViewModel */,
+				6F115F3726D58CA20033CB1B /* View */,
+				6F115F2D26D57A250033CB1B /* Listing.swift */,
+				6FF0C5BC26DB566900ED24E1 /* ListingView.swift */,
+				6FF0C5AF26DB542D00ED24E1 /* DetailView.swift */,
+				6FC7B8E026D9D3D30048FB85 /* CloseButton.swift */,
+				6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */,
 				6F115ED526D551AA0033CB1B /* Assets.xcassets */,
+				6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */,
 				6F115EDA26D551AA0033CB1B /* Info.plist */,
 				6F115ED726D551AA0033CB1B /* Preview Content */,
 			);
@@ -130,6 +196,44 @@
 			path = QuickrCloneUITests;
 			sourceTree = "<group>";
 		};
+		6F115F3726D58CA20033CB1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F115ED326D551A70033CB1B /* ContentView.swift */,
+				6F115F2326D572AE0033CB1B /* LoginView.swift */,
+				6F115F2826D579610033CB1B /* SignUpView.swift */,
+				6F115F3226D57A330033CB1B /* AddItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F115F3D26D58CE20033CB1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F115F3826D58CDD0033CB1B /* ListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F115F4126D593120033CB1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F115F4226D593340033CB1B /* ListViewModel.swift */,
+				6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		913E8E7C40771C30A443C95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6881A8DF0116DB5AB3CA730 /* Pods_QuickrClone.framework */,
+				D2A2C18869D4E85C1273A0F5 /* Pods_QuickrClone_QuickrCloneUITests.framework */,
+				17A293EACAC81039C0B523D5 /* Pods_QuickrCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +241,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F115EF326D551AB0033CB1B /* Build configuration list for PBXNativeTarget "QuickrClone" */;
 			buildPhases = (
+				C17BFDFA03212AEC4300F0A7 /* [CP] Check Pods Manifest.lock */,
 				6F115ECA26D551A70033CB1B /* Sources */,
 				6F115ECB26D551A70033CB1B /* Frameworks */,
 				6F115ECC26D551A70033CB1B /* Resources */,
+				2C1CBFCDCD06037A175BA183 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QuickrClone;
+			packageProductDependencies = (
+				6F01EB8F26DA4CC5006E3F4B /* URLImageStore */,
+				6F01EB9126DA4CC5006E3F4B /* URLImage */,
+			);
 			productName = QuickrClone;
 			productReference = 6F115ECE26D551A70033CB1B /* QuickrClone.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F115EF626D551AB0033CB1B /* Build configuration list for PBXNativeTarget "QuickrCloneTests" */;
 			buildPhases = (
+				2BCE5D9D7E1FA4F0754BD246 /* [CP] Check Pods Manifest.lock */,
 				6F115EDB26D551AB0033CB1B /* Sources */,
 				6F115EDC26D551AB0033CB1B /* Frameworks */,
 				6F115EDD26D551AB0033CB1B /* Resources */,
@@ -172,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F115EF926D551AB0033CB1B /* Build configuration list for PBXNativeTarget "QuickrCloneUITests" */;
 			buildPhases = (
+				7356E6C755321867AFC8A977 /* [CP] Check Pods Manifest.lock */,
 				6F115EE626D551AB0033CB1B /* Sources */,
 				6F115EE726D551AB0033CB1B /* Frameworks */,
 				6F115EE826D551AB0033CB1B /* Resources */,
+				89197B14ABC62B88FCDE7A34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +330,9 @@
 				Base,
 			);
 			mainGroup = 6F115EC526D551A70033CB1B;
+			packageReferences = (
+				6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 6F115ECF26D551A70033CB1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +351,7 @@
 			files = (
 				6F115ED926D551AA0033CB1B /* Preview Assets.xcassets in Resources */,
 				6F115ED626D551AA0033CB1B /* Assets.xcassets in Resources */,
+				6F115F0026D551DA0033CB1B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +371,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BCE5D9D7E1FA4F0754BD246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickrCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1CBFCDCD06037A175BA183 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickrClone/Pods-QuickrClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickrClone/Pods-QuickrClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickrClone/Pods-QuickrClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7356E6C755321867AFC8A977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickrClone-QuickrCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89197B14ABC62B88FCDE7A34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickrClone-QuickrCloneUITests/Pods-QuickrClone-QuickrCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17BFDFA03212AEC4300F0A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickrClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F115ECA26D551A70033CB1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F115F2926D579610033CB1B /* SignUpView.swift in Sources */,
+				6FF0C5B026DB542D00ED24E1 /* DetailView.swift in Sources */,
+				6F115F2426D572AE0033CB1B /* LoginView.swift in Sources */,
+				6FC7B8D026D7E44B0048FB85 /* ListsViewModel.swift in Sources */,
+				6F115F3326D57A330033CB1B /* AddItem.swift in Sources */,
+				6FC7B8E126D9D3D30048FB85 /* CloseButton.swift in Sources */,
+				6F115F2E26D57A250033CB1B /* Listing.swift in Sources */,
+				6FF0C5BD26DB566900ED24E1 /* ListingView.swift in Sources */,
+				6F5FD8F026D6C47000A97929 /* ImagePickerView.swift in Sources */,
+				6F115F3926D58CDD0033CB1B /* ListModel.swift in Sources */,
 				6F115ED426D551A70033CB1B /* ContentView.swift in Sources */,
+				6F115F4326D593340033CB1B /* ListViewModel.swift in Sources */,
 				6F115ED226D551A70033CB1B /* QuickrCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +645,7 @@
 		};
 		6F115EF426D551AB0033CB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7126A4149FF94942717717FB /* Pods-QuickrClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +668,7 @@
 		};
 		6F115EF526D551AB0033CB1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8F64B9A5468EB67473D48A /* Pods-QuickrClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +691,7 @@
 		};
 		6F115EF726D551AB0033CB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1232334E88ECF91D0CABD71 /* Pods-QuickrCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +714,7 @@
 		};
 		6F115EF826D551AB0033CB1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634A1BC1281B919035BA26D8 /* Pods-QuickrCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +737,7 @@
 		};
 		6F115EFA26D551AB0033CB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CCE9E8E5F5B6825572CB52 /* Pods-QuickrClone-QuickrCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +758,7 @@
 		};
 		6F115EFB26D551AB0033CB1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3DB89D04908A7BC36A436A /* Pods-QuickrClone-QuickrCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +817,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F01EB8F26DA4CC5006E3F4B /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		6F01EB9126DA4CC5006E3F4B /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F115EC626D551A70033CB1B /* Project object */;
 }

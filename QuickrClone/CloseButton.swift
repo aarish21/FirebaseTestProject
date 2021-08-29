@@ -10,6 +10,7 @@ import SwiftUI
 struct CloseButton: View {
     var body: some View {
         Image(systemName: "xmark")
+            
             .font(.system(size: 17, weight: .bold))
             .foregroundColor(.white)
             .padding(.all, 10)
