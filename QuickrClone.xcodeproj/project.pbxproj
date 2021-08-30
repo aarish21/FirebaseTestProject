@@ -65,7 +65,7 @@
 		6F115F2326D572AE0033CB1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6F115F2826D579610033CB1B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		6F115F3226D57A330033CB1B /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
-		6F115F3826D58CDD0033CB1B /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = "../New Group/ListModel.swift"; sourceTree = "<group>"; };
+		6F115F3826D58CDD0033CB1B /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		6F115F4226D593340033CB1B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		6FC7B8CF26D7E44B0048FB85 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				6F115ED126D551A70033CB1B /* QuickrCloneApp.swift */,
-				6F115F3D26D58CE20033CB1B /* Model */,
+				6F115F3826D58CDD0033CB1B /* ListModel.swift */,
 				6F115F4126D593120033CB1B /* ViewModel */,
 				6F115F3726D58CA20033CB1B /* View */,
 				6F115ED526D551AA0033CB1B /* Assets.xcassets */,
@@ -192,14 +192,6 @@
 				6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6F115F3D26D58CE20033CB1B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6F115F3826D58CDD0033CB1B /* ListModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		6F115F4126D593120033CB1B /* ViewModel */ = {
