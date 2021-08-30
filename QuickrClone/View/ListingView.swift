@@ -8,7 +8,7 @@
 import SwiftUI
 import Firebase
 import FirebaseFirestore
-import URLImage
+
 
 struct ListingView: View {
     @ObservedObject private var viewModel = ListViewModel()
