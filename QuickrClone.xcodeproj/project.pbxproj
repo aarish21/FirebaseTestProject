@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		079E4817631D0DADCC816E1F /* Pods_QuickrClone_QuickrCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A2C18869D4E85C1273A0F5 /* Pods_QuickrClone_QuickrCloneUITests.framework */; };
-		6F01EB9026DA4CC5006E3F4B /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F01EB8F26DA4CC5006E3F4B /* URLImageStore */; };
-		6F01EB9226DA4CC5006E3F4B /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F01EB9126DA4CC5006E3F4B /* URLImage */; };
 		6F115ED226D551A70033CB1B /* QuickrCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115ED126D551A70033CB1B /* QuickrCloneApp.swift */; };
 		6F115ED426D551A70033CB1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F115ED326D551A70033CB1B /* ContentView.swift */; };
 		6F115ED626D551AA0033CB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F115ED526D551AA0033CB1B /* Assets.xcassets */; };
@@ -84,8 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F01EB9026DA4CC5006E3F4B /* URLImageStore in Frameworks */,
-				6F01EB9226DA4CC5006E3F4B /* URLImage in Frameworks */,
 				D1C006FA2E51F249900A5849 /* Pods_QuickrClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +147,6 @@
 				6F115F3D26D58CE20033CB1B /* Model */,
 				6F115F4126D593120033CB1B /* ViewModel */,
 				6F115F3726D58CA20033CB1B /* View */,
-				6FF0C5BC26DB566900ED24E1 /* ListingView.swift */,
-				6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */,
 				6F115ED526D551AA0033CB1B /* Assets.xcassets */,
 				6F115EFF26D551DA0033CB1B /* GoogleService-Info.plist */,
 				6F115EDA26D551AA0033CB1B /* Info.plist */,
@@ -194,6 +188,8 @@
 				6F115F2326D572AE0033CB1B /* LoginView.swift */,
 				6F115F2826D579610033CB1B /* SignUpView.swift */,
 				6F115F3226D57A330033CB1B /* AddItem.swift */,
+				6FF0C5BC26DB566900ED24E1 /* ListingView.swift */,
+				6F5FD8EF26D6C47000A97929 /* ImagePickerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,8 +240,6 @@
 			);
 			name = QuickrClone;
 			packageProductDependencies = (
-				6F01EB8F26DA4CC5006E3F4B /* URLImageStore */,
-				6F01EB9126DA4CC5006E3F4B /* URLImage */,
 			);
 			productName = QuickrClone;
 			productReference = 6F115ECE26D551A70033CB1B /* QuickrClone.app */;
@@ -322,7 +316,6 @@
 			);
 			mainGroup = 6F115EC526D551A70033CB1B;
 			packageReferences = (
-				6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 6F115ECF26D551A70033CB1B /* Products */;
 			projectDirPath = "";
@@ -805,30 +798,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		6F01EB8F26DA4CC5006E3F4B /* URLImageStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImageStore;
-		};
-		6F01EB9126DA4CC5006E3F4B /* URLImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F01EB8E26DA4CC5006E3F4B /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F115EC626D551A70033CB1B /* Project object */;
 }
